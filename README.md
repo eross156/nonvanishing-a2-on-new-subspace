@@ -9,8 +9,8 @@ This repository contains code to check the finitely many remaining cases.
 - The computation for `a2^new(4,N,k)` was split into 61 batches: `B1` - `B61`.
   - `Bi` computed `N=i` for `1 <= i <= 60`.
   - `B61` computed `N >= 61`.
-- `out_A_combined.txt` gives the complete list of triples `(2,N,k)` for which `a2^new(2,N,k) >= 0`.
-- `out_B_combined.txt` gives the complete list of triples `(4,N,k)` for which `a2^new(4,N,k) <= 0`.
+- `Table A` gives the complete list of triples `(2,N,k)` for which `a2^new(2,N,k) >= 0`.
+- `Table B` gives the complete list of triples `(4,N,k)` for which `a2^new(4,N,k) <= 0`.
 
 
 Here is an example of how the code was run.
