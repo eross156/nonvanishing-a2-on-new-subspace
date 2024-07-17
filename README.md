@@ -1,7 +1,7 @@
 
 # Nonvanishing Second Coefficient on the New Subspace
 
-In the paper "Nonvanishing of Second Coefficients of Hecke Polynomials on the New Subspace", we showed that `a2^new(2,N,k)` and  `a2^new(4,N,k)` are nonvanishing for sufficiently large `N+k`.
+In the paper [Nonvanishing of Second Coefficients of Hecke Polynomials on the New Subspace](https://arxiv.org/abs/2407.11694), we showed that `a2^new(2,N,k)` and  `a2^new(4,N,k)` are nonvanishing for sufficiently large `N+k`.
 This repository contains code to check the finitely many remaining cases.
 
 - The computation for `a2^new(2,N,k)` was split into 120 batches: `A0` - `A119`.
